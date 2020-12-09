@@ -3,31 +3,43 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "now dev",
     "build": "next build",
     "start": "next start",
     "svg": "svgr -d src/components/icons src/components/icons/svgs"
   },
   "dependencies": {
-    "@apollo/client": "^3.2.5",
+    "@apollo/client": "^3.3.4",
     "@svgr/cli": "^5.5.0",
     "graphql": "^15.4.0",
     "lodash": "^4.17.20",
-    "next": "10.0.1",
+    "next": "^10.0.3",
     "node-fetch": "^2.6.1",
     "nprogress": "^0.2.0",
-    "react": "17.0.1",
-    "react-dom": "17.0.1",
-    "sass": "^1.29.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "sass": "^1.30.0",
     "uuid": "^8.3.1",
-    "validator": "^13.1.17"
+    "validator": "^13.5.1"
   },
   "devDependencies": {
     "install": "^0.13.0",
-    "postcss-flexbugs-fixes": "^5.0.1",
+    "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-import": "^13.0.0",
     "postcss-preset-env": "^6.7.0",
     "precss": "^4.0.0",
     "tailwindcss": "^1.9.6"
-  }
+  },
+  "description": "[![Project Status: Active.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active) ![Stars](https://img.shields.io/github/stars/imranhsayed/woo-next?label=%E2%AD%90%20Stars) ![Forks](https://img.shields.io/github/forks/imranhsayed/woo-next?color=%23ff69b4) ![Contributors](https://img.shields.io/github/contributors/imranhsayed/woo-next?color=blue) ![Follow](https://img.shields.io/github/followers/imranhsayed?label=Please%20follow%20%20to%20support%20my%20work%20%F0%9F%99%8F&style=social)",
+  "main": "client-config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imranhsayed/woo-next.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imranhsayed/woo-next/issues"
+  },
+  "homepage": "https://github.com/imranhsayed/woo-next#readme"
 }
